@@ -14,7 +14,7 @@ if sys.platform.startswith("win"):
 
 else:
     MVCAM_SDK_PATH = os.environ.get("MVCAM_SDK_PATH", "/opt/MVS")
-    MvImportDir = os.path.join(MVCAM_SDK_PATH, "Samples/64/Python/MvImport")
+    MvImportDir = os.path.join(MVCAM_SDK_PATH, "Samples/aarch64/Python/MvImport")
 
 with boxx.impt(MvImportDir):
     try:
